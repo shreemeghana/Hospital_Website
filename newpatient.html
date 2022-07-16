@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        .newmember {
+            border: solid 2px;
+            background-color: transparent;
+            font-family: cursive;
+            color: orangered;
+            height: 470px;
+            width: 800px;
+            margin-top: 70px;
+            margin-left: 250px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        button{
+            font-family: cursive;
+            border: solid black 2px;
+            border-radius: 5px;
+            background-color: orangered;
+            height: 30px;
+            width: 75px;
+            font-size: medium;
+        }
+        .newmember label{
+            display: inline-block;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="newmember">
+        <form action="Thanks.html">
+            <label for="name">Patient's Name:</label>
+            <input type="text" placeholder="Name"><br><br>
+            <label for="dob">DOB:</label>
+            <input type="date" placeholder="DD/MM/YYYY"><br><br>
+            <label for="contact">Contact No:</label>
+            <input type="tel" placeholder="+91 90000-00000"><br><br>
+            <label for="email">Email ID:</label>
+            <input type="email"placeholder="Email-Id"><br><br>
+            <label for="issues">Issue in Brief:</label>
+            <input style="line-height: 100px;" type="text" size="75"><br><br>
+            <label for="name">Referred By:</label>
+            <input type="text" placeholder="Dr."><br><br>
+            <label for="name">Treated By:</label>
+            <input type="text" placeholder="Dr."><br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
